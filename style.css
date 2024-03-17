@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(231, 231, 231);
+    font-family: 'Courier New', Courier, monospace;
+}
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#module{
+    margin-bottom: 15px;
+}
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    background-color: white;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+#gfsk{
+    margin: 20px;
+
+}
+h1{
+    color: rgb(255, 83, 53);
+
+    border: dashed black;
+}
+button{
+    padding: 3px;
+    cursor: pointer;
+    background-color: rgb(255, 83, 53);
+    color: white;
+    border-radius: 5px;
+    border: dashed black;
+}
+input{
+    border: 2mm ridge rgba(211, 220, 50, .6);
+}
+textarea{
+    border: 4mm ridge rgba(211, 220, 50, .6);
+}
